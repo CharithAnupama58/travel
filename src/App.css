@@ -20,6 +20,11 @@
     --cardBG: rgb(225,225,235);
 }
 
+html{
+    scroll-behavior: smooth;
+
+}
+
 a{
     text-decoration: none;
 }
@@ -81,4 +86,14 @@ input{
 
 body{
     background: var(--bodyColor);
+}
+
+@media screen and (min-width:1240px) {
+    .container{
+        width: 80% !important;
+        margin: auto !important;
+    }
+
+    
+    
 }
